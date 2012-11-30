@@ -1,0 +1,58 @@
+<!doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+	<head>
+		<style type="text/css">
+			hr {width:75px;
+					position:absolute;
+					left:15px;}
+		</style>
+		<title>Hello world Title</title>
+	</head>
+
+	<body>
+		<form action="dosomething" method="get">
+			Username: <input type="text" name="username" size="13" maxlength="6" value="helpssasdf"/>
+			Password: <input type="password" name="pword" />
+			<br/>
+			<hr />
+			<br/>
+			Male: <input type="radio" name="gender" value="male"/>
+			Female: <input type="radio" name="gender" value="female"/> 
+			<br/>
+			<hr />
+			<br/>
+			<p> Select what you want! </p>
+			Me <input type="checkbox" name="foo" value="me"/>
+			you <input type="checkbox" name="foo" value="you"/>
+			him <input type="checkbox" name="foo" value="him"/>
+			her <input type="checkbox" name="foo" value="her"/>
+			us <input type="checkbox" name="foo" value="us"/>
+			<br />
+			<hr />
+			<br/>
+			<select name="bar">
+				<option value='play'> play </option>
+				<option value='work'> work </option>
+				<option value='punch'> punch </option>
+				<option value='slap'> slap </option>
+				<option value='kick'> kick </option>
+			</select>
+			<br />
+			<hr />
+			<br/>
+				Tell me about yourself...
+			<br />
+			<textarea name="bio" rows="8" cols="40">
+			</textarea>
+			<br />
+			<hr />
+			<br/>
+			<p>Now submit a file!</p>
+			<input type="file" name="myfile"/>
+			<br/>
+			<input type="submit" name="submit" value="Submit!"/>
+		</form>
+	</body>
+</html>
